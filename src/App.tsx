@@ -1,3 +1,4 @@
+import Experience from "./Experience";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import { useEffect, useState } from "react";
@@ -16,6 +17,7 @@ function App() {
     <>
       <Navbar data={data?.navbar} url={data?.assets_url} />
       <Hero data={data?.hero} url={data?.assets_url} />
+      <Experience data={data?.experience} />
     </>
   );
 }

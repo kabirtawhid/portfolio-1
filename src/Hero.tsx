@@ -1,4 +1,4 @@
-function Hero({ data, url }) {
+function Hero({ data, url = "" }) {
   return (
     <section>
       <div className="flex justify-center mt-[35px]">
@@ -19,7 +19,7 @@ function Hero({ data, url }) {
         </button>
       </div>
 
-      <p className="h-[1px] bg-white mt-[60px]"></p>
+      <p className="line mt-[60px]"></p>
     </section>
   );
 }

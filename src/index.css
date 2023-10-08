@@ -13,4 +13,8 @@ body {
   .underline-green {
     @apply underline underline-offset-[7px] decoration-green-1;
   }
+
+  .line {
+    @apply h-[1px] bg-white ;
+  }
 }

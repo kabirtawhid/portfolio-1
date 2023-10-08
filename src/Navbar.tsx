@@ -1,4 +1,4 @@
-function Navbar({ data, url }) {
+function Navbar({ data, url = "" }) {
   return (
     <nav className="flex flex-col items-center mt-[15px]">
       <h4 className="text-white text-xl font-bold">{data?.logo}</h4>
