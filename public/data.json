@@ -1,0 +1,77 @@
+{
+  "assets_url": "/src/assets/",
+  "navbar": {
+    "logo": "adamkeyes",
+    "social_icons": {
+      "twitter": "icon_twitter.png",
+      "linkedin": "icon_linkedin.png",
+      "github": "icon_github.png"
+    }
+  },
+  "hero": {
+    "name": "adam keyes",
+    "protrait": "protrait.png",
+    "description": "Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love."
+  },
+  "experience": [
+    {
+      "name": "HTML",
+      "year": "4"
+    },
+    {
+      "name": "CSS",
+      "year": "4"
+    },
+    {
+      "name": "Javascript",
+      "year": "4"
+    },
+    {
+      "name": "Accessiblity",
+      "year": "4"
+    },
+    {
+      "name": "React",
+      "year": "3"
+    },
+    {
+      "name": "Saas",
+      "year": "3"
+    }
+  ],
+  "projects": [
+    {
+      "name": "design portfolio",
+      "tags": ["html", "css"],
+      "img": ["design_portfolio.png"]
+    },
+    {
+      "name": "e-learning landing page",
+      "tags": ["html", "css"],
+      "img": ["design_portfolio.png"]
+    },
+    {
+      "name": "todo web app",
+      "tags": ["html", "css", "javascript"],
+      "img": ["design_portfolio.png"]
+    },
+    {
+      "name": "entertainment web app",
+      "tags": ["html", "css", "javascript"],
+      "img": ["design_portfolio.png"]
+    },
+    {
+      "name": "memory game",
+      "tags": ["html", "css", "javascript"],
+      "img": ["design_portfolio.png"]
+    },
+    {
+      "name": "art gallery showcase",
+      "tags": ["html", "css", "javascript"],
+      "img": ["design_portfolio.png"]
+    }
+  ],
+  "contact": {
+    "description": "I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible."
+  }
+}
