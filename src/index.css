@@ -25,4 +25,8 @@ body {
   .btn-green {
     @apply uppercase text-white-1 text-base font-bold tracking-[.88px] underline-green;
   }
+
+  .input-1 {
+    @apply bg-[#3a3a3a] rounded-[4px] border-none shadow-[0_4px_4px_0_rgba(36,36,36,1)] placeholder:text-[12px] placeholder:text-[rgba(192,192,192,.53)] placeholder:uppercase placeholder:font-bold;
+  }
 }

@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import Navbar from "./Navbar";
 import { useEffect, useState } from "react";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 function App() {
   const [data, setData] = useState([]);
@@ -20,6 +21,7 @@ function App() {
       <Hero data={data?.hero} url={data?.assets_url} />
       <Experience data={data?.experience} />
       <Projects data={data?.projects} url={data?.assets_url} />
+      <Contact data={data?.contact} navData={data?.navbar} url={data?.assets_url} />
     </>
   );
 }
