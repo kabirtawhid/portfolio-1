@@ -15,6 +15,14 @@ body {
   }
 
   .line {
-    @apply h-[1px] bg-white ;
+    @apply h-[1px] bg-white;
+  }
+
+  .heading-1 {
+    @apply text-white text-[32px] font-bold;
+  }
+
+  .btn-green {
+    @apply uppercase text-white-1 text-base font-bold tracking-[.88px] underline-green;
   }
 }

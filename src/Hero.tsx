@@ -4,7 +4,7 @@ function Hero({ data, url = "" }) {
       <div className="flex justify-center mt-[35px]">
         <img src={url + data?.protrait} alt="" />
       </div>
-      <h1 className="text-white text-[32px] font-bold text-center">
+      <h1 className="heading-1 text-center">
         Nice to Meet you! <br /> I'm{" "}
         <span className="capitalize underline-green">{data?.name}</span>.
       </h1>
@@ -13,10 +13,8 @@ function Hero({ data, url = "" }) {
         accessible web apps that users love.
       </p>
 
-      <div className="flex justify-center">
-        <button className="uppercase text-white-1 text-base font-bold tracking-[.88px] underline-green mt-[20px]">
-          Contact Me
-        </button>
+      <div className="flex justify-center mt-[20px]">
+        <button className="btn-green">Contact Me</button>
       </div>
 
       <p className="line mt-[60px]"></p>
